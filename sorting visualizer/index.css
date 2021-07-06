@@ -1,0 +1,28 @@
+body{
+    /* background-color: lightblue; */
+    background-color: rgb(162, 213, 236);
+}
+.header{
+  text-align: center;
+}
+.navbar{
+    /* background-color: rgb(92, 91, 184); */
+    background-color: #4f535c;
+}
+.navbar-text{
+  color: aliceblue;
+}
+.bar-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+.bar-container .bars {
+    width: 25px;
+    background: #9e89d8;
+    border: 1px solid rgb(56, 56, 56);
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+  }
